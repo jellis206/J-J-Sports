@@ -1,0 +1,9 @@
+/* Menu */
+.bg-dark {
+  background-color: #C0C0C0 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000 !important;
+}
+
