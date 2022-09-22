@@ -1,9 +1,17 @@
 /* Menu */
 .bg-dark {
-  background-color: #C0C0C0 !important;
+    background-color: #C0C0C0 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #000000 !important;
+    color: #000000 !important;
 }
 
+.articles-list {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
