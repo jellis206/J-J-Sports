@@ -36,9 +36,16 @@
 
 @media screen and (max-width: 991px) {
     .menu-center {
-        text-align: left;
-        transform: translate(1%, 0);
-        width: 20%;
+        display: none !important;
+    }
+
+    .dropdown-toggle::after {
+        content: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: none !important;
+        margin-top: 0;
     }
 }
 
