@@ -31,6 +31,15 @@
     right: auto;
     text-align: center;
     transform: translate(-50%, 0);
+    width: 20%;
+}
+
+@media screen and (max-width: 991px) {
+    .menu-center {
+        text-align: left;
+        transform: translate(1%, 0);
+        width: 20%;
+    }
 }
 
 .navbar-nav {
@@ -79,6 +88,10 @@ body {
 
 .article-content {
     text-align: center;
+}
+
+.navbar-collapse {
+    transition: transform 0.2s !important;
 }
 
 .article-image {
