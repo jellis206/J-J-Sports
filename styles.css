@@ -47,6 +47,15 @@
         display: none !important;
         margin-top: 0;
     }
+
+    .navbar-nav {
+        margin-left: 0 !important;
+        width: fit-content;
+    }
+
+    .nav-link {
+        padding: 4px !important;
+    }
 }
 
 .navbar-nav {
